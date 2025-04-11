@@ -4,6 +4,7 @@ public class Soldado extends Persona{
 
     private List<Arma> armas;
 
+    @Override
     public Integer potencia(){
         return super.potencia() + armas.stream().mapToInt(arma -> arma.potencia())sum();
     }
