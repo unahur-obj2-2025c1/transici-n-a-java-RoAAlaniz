@@ -6,6 +6,10 @@ public class Atleta extends Persona{
 
     private Integer cantTecnicas = 2;
 
+    public Atleta(Integer edad){
+        super.edad();
+    }
+
     @Override
     public Integer potencia(){
         return super.potencia() + (masaMuscular * cantTecnicas);
