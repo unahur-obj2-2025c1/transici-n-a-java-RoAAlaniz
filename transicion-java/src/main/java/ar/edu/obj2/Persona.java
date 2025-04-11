@@ -1,4 +1,4 @@
-package ar.edu.unahur.obj2;
+package ar.edu.obj2;
 
 public class Persona{
 
@@ -6,6 +6,10 @@ public class Persona{
 
     public Persona(Integer edad){
         this.edad = edad;
+    }
+
+    public Integer getEdad(){
+        return = edad;
     }
 
     public Integer potencia(){
@@ -18,5 +22,9 @@ public class Persona{
 
     public Boolean esDestacado(){
         return edad == 25 || edad == 35;
+    }
+
+    public void ofrecerTributo(Planeta planeta){
+        personas
     }
 }

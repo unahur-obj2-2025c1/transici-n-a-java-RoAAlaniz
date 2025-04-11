@@ -1,4 +1,4 @@
-package ar.edu.unahur.obj2;
+package ar.edu.obj2;
 
 public class Atleta extends Persona{
 
@@ -26,6 +26,11 @@ public class Atleta extends Persona{
 
     public void aprender(){
         cantTecnicas += 1
+    }
+
+    @Override
+    public void ofrecerTributo(Planeta planeta){
+        planeta.construirMurallas(km:2);
     }
 
 }

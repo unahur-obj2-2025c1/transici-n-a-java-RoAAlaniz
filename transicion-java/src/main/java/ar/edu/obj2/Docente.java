@@ -1,4 +1,4 @@
-package ar.edu.unahur.obj2;
+package ar.edu.obj2;
 
 public class Docente extends Persona{
     
@@ -16,5 +16,10 @@ public class Docente extends Persona{
     @Override 
     public Integer esDestacado(){
         return cantCursos > 3;
+    }
+
+    @Override
+    public void ofrecerTributo(Planeta planeta){
+        planeta.construirMuseo();
     }
 }
